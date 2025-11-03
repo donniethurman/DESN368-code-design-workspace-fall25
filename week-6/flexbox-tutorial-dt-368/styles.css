@@ -46,3 +46,54 @@ section {
   scroll-margin-top: 1rem;
   position: relative;
 }
+
+.deco {
+  position: absolute;
+  pointer-events: none;
+}
+
+.deco img {
+  width: 150px;
+  height: auto;
+  opacity: 0.15;
+  filter: grayscale(100%);
+}
+
+#deco-1 {
+  top: -10%; 
+  left: -5%;
+}
+
+#deco-2 {
+  top: 50%;
+  right: -5%;
+}
+
+#deco-3 {
+  bottom: -10%;
+  left: 50%;
+}
+
+#deco-4 {
+  top: -10%;
+  left: -5%;
+}
+
+#deco-5 {
+  top: 50%;
+  right: -5%;
+}
+
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.back-to-top {
+  display: inline-block;
+  margin-top 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
