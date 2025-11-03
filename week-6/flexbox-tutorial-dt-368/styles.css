@@ -55,33 +55,33 @@ section {
 .deco img {
   width: 150px;
   height: auto;
-  opacity: 0.15;
+  opacity: 0.20;
   filter: grayscale(100%);
 }
 
 #deco-1 {
-  top: -10%; 
-  left: -5%;
+  top: 50%; 
+  right: 5%;
 }
 
 #deco-2 {
   top: 50%;
-  right: -5%;
+  right: 5%;
 }
 
 #deco-3 {
-  bottom: -10%;
-  left: 50%;
+  top: 50%;
+  right: 5%;
 }
 
 #deco-4 {
-  top: -10%;
-  left: -5%;
+  top: 50%;
+  right: 5%;
 }
 
 #deco-5 {
   top: 50%;
-  right: -5%;
+  right: 5%;
 }
 
 :focus-visible {
@@ -90,10 +90,18 @@ section {
   border-radius: 4px;
 }
 
+:hover {
+  background-color: rgb(12, 12, 63):
+}
+
 .back-to-top {
   display: inline-block;
-  margin-top 2rem;
+  margin-top: 2rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
 }
