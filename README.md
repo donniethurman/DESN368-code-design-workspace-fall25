@@ -118,7 +118,7 @@ Key Takeaways: This week I learned how to position a flexbox.
 Tasks Completed:
 - ✓ Certification figma draft completed 
 - ✓ Weekly visual notes 
-- ✓ Mobile Nav Tutorial -->
+- ✓ Mobile Nav Tutorial --> https://codepen.io/donniethurman/pen/NPxZqXe
 
 --- 
 
