@@ -82,11 +82,45 @@ This week I learnd the definiton of CSS (cascading style sheet) and how that fun
 This week I learned the importance of semantic CSS and CSS text styling. 
 
 **Tasks Completed:**
-- ✓ Organized repo with week folders
-- ✓ Archived original README
-- ✓ Created new portfolio-style README
+    ✓ Organized repo with week folders
+    ✓ Archived original README
+    ✓ Created new portfolio-style README
 
 ---
+
+## Week 5 - CSS
+
+Topics Covered:
+
+    Layout
+    CSS elements 
+    Flexbox
+
+Key Takeaways: This week I learned about flexbox and its use in CSS documents. 
+
+Tasks Completed:
+- ✓ Organized CSS 
+- ✓ Visual Notes
+- ✓ Researched what makes a good design good. 
+
+---
+
+## Week 6 - Flexbox and Tribute 
+Topics Covered:
+
+    Flexbox
+    Mobile Navigation Bars
+    Responsive Design
+    
+
+Key Takeaways: This week I learned how to position a flexbox. 
+
+Tasks Completed:
+- ✓ Certification figma draft completed 
+- ✓ Weekly visual notes 
+- ✓ Mobile Nav Tutorial -->
+
+--- 
 
 ## Projects
 **Project 1: Tribute Page**
