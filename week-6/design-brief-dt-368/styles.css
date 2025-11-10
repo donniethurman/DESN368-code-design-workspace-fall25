@@ -130,6 +130,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 section {
@@ -141,6 +142,60 @@ section {
   position: relative;
 }
 
+#section-1 {
+  border-style: ridge;
+  corner-scoop-size: 30px;
+  -webkit-mask: radial-gradient(circle 20px at 0 0, transparent 98%, #000) top left,
+                radial-gradient(circle 20px at 0 100%, transparent 98%, #000) bottom left,
+                radial-gradient(circle 20px at 100% 0, transparent 98%, #000) top right,
+                radial-gradient(circle 20px at 100% 100%, transparent 98%, #000) bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 50% 50%; 
+}
+
+#section-2 {
+  border-style: ridge;
+  corner-scoop-size: 30px;
+  -webkit-mask: radial-gradient(circle 20px at 0 0, transparent 98%, #000) top left,
+                radial-gradient(circle 20px at 0 100%, transparent 98%, #000) bottom left,
+                radial-gradient(circle 20px at 100% 0, transparent 98%, #000) top right,
+                radial-gradient(circle 20px at 100% 100%, transparent 98%, #000) bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 50% 50%; 
+}
+
+#section-3 {
+  border-style: ridge;
+  corner-scoop-size: 30px;
+  -webkit-mask: radial-gradient(circle 20px at 0 0, transparent 98%, #000) top left,
+                radial-gradient(circle 20px at 0 100%, transparent 98%, #000) bottom left,
+                radial-gradient(circle 20px at 100% 0, transparent 98%, #000) top right,
+                radial-gradient(circle 20px at 100% 100%, transparent 98%, #000) bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 50% 50%; 
+}
+
+#section-4 {
+  border-style: ridge;
+  corner-scoop-size: 30px;
+  -webkit-mask: radial-gradient(circle 20px at 0 0, transparent 98%, #000) top left,
+                radial-gradient(circle 20px at 0 100%, transparent 98%, #000) bottom left,
+                radial-gradient(circle 20px at 100% 0, transparent 98%, #000) top right,
+                radial-gradient(circle 20px at 100% 100%, transparent 98%, #000) bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 50% 50%; 
+}
+
+#section-5 {
+  border-style: ridge;
+  corner-scoop-size: 30px;
+  -webkit-mask: radial-gradient(circle 20px at 0 0, transparent 98%, #000) top left,
+                radial-gradient(circle 20px at 0 100%, transparent 98%, #000) bottom left,
+                radial-gradient(circle 20px at 100% 0, transparent 98%, #000) top right,
+                radial-gradient(circle 20px at 100% 100%, transparent 98%, #000) bottom right;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 50% 50%; 
+}
 p {
   text-indent: 20px;
 }
@@ -151,7 +206,9 @@ ul {
   line-height: 1;
 }
 
-li 
+li::marker {
+  font-size: 30px;
+} 
  /* this is where I think I need to add something to make the list items and bullets align. */
 
 
@@ -167,9 +224,10 @@ ol {
 
 button {
   font-family: EB Garamond, serif;
-  font-size: 25px;
+  font-size: 1.5 rem;
   padding: 10px 20px;
   border-radius: 37px;
+  margin:0 auto;
 }
 
 #footer {
@@ -184,7 +242,8 @@ button {
   border-color:#561023;
   flex-shrink: 0;
   color: white;
-  background: #561023;      
+  background: #561023;    
+  margin: 0 auto;
 }
 
 .button {
