@@ -70,6 +70,11 @@ header {
   top: -6px;
 }
 
+h2 {
+  line-height: 2.5;
+  text-align: center;
+}
+
 h1, h2 {
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
@@ -99,7 +104,7 @@ body {
   color: #fff;
   box-shadow: 2px 0 8px rgba(0,0,0,1);
   overflow-y: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .content {
@@ -131,18 +136,102 @@ html {
 section {
   padding: 2rem;
   margin-bottom: 2rem;
-  background: white;
-  border: 1px solid #e0e0e0;
+  background: #FFEDD8;
+  border: 4px solid #FFAA4A;
   scroll-margin-top: 1rem;
   position: relative;
 }
 
-#section-1{
+p {
+  text-indent: 20px;
 }
 
 ul {
+  list-style: inside;
   list-style-image: url('images/harry-potter-wand.png');
+  line-height: 1;
 }
+
+li 
+ /* this is where I think I need to add something to make the list items and bullets align. */
+
+
+ul li {
+  margin-bottom: -40px;
+} 
+
+ol {
+  list-style-type: none;
+  text-align: center;
+  line-height: 5;
+}
+
+button {
+  font-family: EB Garamond, serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 37px;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color:#561023;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-color:#561023;
+  flex-shrink: 0;
+  color: white;
+  background: #561023;      /* reset large global line-height so headings stack tightly */
+}
+
+.button {
+  margin: 0 auto;
+  display: flex; 
+  gap: 100px; 
+}
+
+.button-1 {
+  margin: 0 auto;
+  background-color: #561023;
+  border: 1px solid white;
+  color: white;
+}
+
+.button-2 {
+  margin: 0 auto;
+  margin-left: 100px;
+  background-color: white;
+}
+
+.button-1:hover {
+  background-color: white; /* Darker beige on hover */
+  color: black;
+}
+
+.button-2:hover {
+  background-color: #561023; /* Darker beige on hover */
+  color: white;
+}
+
+a:link {
+  color: white;
+  decoration: none
+}
+
+a:hover { 
+  color: #FFAA4A;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #CCCCCC;
+}
+
+
 
 /*MEDIA MEDIA MEDIA MEDIA */
 /*MEDIA MEDIA MEDIA MEDIA */
