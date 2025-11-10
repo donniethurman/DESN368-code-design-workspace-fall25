@@ -24,17 +24,50 @@
   font-style: normal;
 }
 
+main {
+  background-color: #561023;
+}
+
 header {
-    text-align: center;
-    color: white;
-    background-color:#561023;
-    padding: 2rem; 
-    min-height: 100vh;            /* fills the screen height */
-    display: grid;          
-    width: 100%;
-    box-sizing: border-box;
-    color: white;
-    background: #561023;
+  text-align: left;
+  color: white;
+  background-color:#561023;
+  min-height: 100vh;            /* fills the screen height */
+  display: grid;
+  align-content: center;        /* center hero content vertically */
+  gap: 16px;                    
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  color: white;
+  background: #561023;
+  line-height: normal;          /* reset large global line-height so headings stack tightly */
+  padding-left: 367px;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 367px;
+  border: white;
+}
+
+.header1{
+  font-size: 160px;
+  padding-top: 0;              /* remove large push-down; use header gap instead */
+  margin-top: 0;
+  line-height: 1;              /* keep heading compact */
+  position: relative;
+  top: -10px;
+}
+
+.header2{
+  font-size: 78px;
+  line-height: 1.1;
+  margin: 0;
+  position: relative;
+  top: -6px;
 }
 
 h1, h2 {
@@ -45,11 +78,11 @@ h1, h2 {
 
 body {
   font-family: "EB Garamond", serif;
+  background-color: #561023;
 }
 
 .container {
   display: flex;
-  gap: 1.5rem;
   padding: 1rem;
 }
 
@@ -62,10 +95,11 @@ body {
   height: 100vh;
   z-index: 1200;
   padding: 1rem;
-  background: rgba(86,16,35,0.95);
+  background: rgba(86,16,35,1);
   color: #fff;
-  box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+  box-shadow: 2px 0 8px rgba(0,0,0,1);
   overflow-y: auto;
+  text-align: center;
 }
 
 .content {
@@ -73,8 +107,46 @@ body {
   flex-shrink: 1;
   flex-basis: auto;
   max-width: 800px;
+  margin: 0 auto;
 }
 
+.container { 
+  margin-left: 0; 
+  padding-top: 3.5rem; 
+} 
+
+.gallery {
+  display: flex;
+  gap: 100px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+  top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background: white;
+  border: 1px solid #e0e0e0;
+  scroll-margin-top: 1rem;
+  position: relative;
+}
+
+#section-1{
+}
+
+ul {
+  list-style-image: url('images/harry-potter-wand.png');
+}
+
+/*MEDIA MEDIA MEDIA MEDIA */
+/*MEDIA MEDIA MEDIA MEDIA */
+/*MEDIA MEDIA MEDIA MEDIA */
 /* Push main content to the right on wide screens so it isn't hidden under the fixed sidebar */
 @media (min-width: 900px) {
   .container {
@@ -95,19 +167,3 @@ body {
     padding: .5rem 1rem;
     align-items: center;
   }
-  .container { margin-left: 0; padding-top: 3.5rem; }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-section {
-  padding: 2rem;
-  margin-bottom: 2rem;
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  scroll-margin-top: 1rem;
-  position: relative;
-}
