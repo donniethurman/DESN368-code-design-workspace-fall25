@@ -32,16 +32,16 @@ header {
   text-align: left;
   color: white;
   background-color:#561023;
-  min-height: 100vh;            /* fills the screen height */
+  min-height: 100vh;           
   display: grid;
-  align-content: center;        /* center hero content vertically */
+  align-content: center;        
   gap: 16px;                    
   width: 100%;
   box-sizing: border-box;
   flex-shrink: 0;
   color: white;
   background: #561023;
-  line-height: normal;          /* reset large global line-height so headings stack tightly */
+  line-height: normal;         
   padding-left: 367px;
   position: relative;
 }
@@ -55,9 +55,9 @@ header {
 
 .header1{
   font-size: 160px;
-  padding-top: 0;              /* remove large push-down; use header gap instead */
+  padding-top: 0;             
   margin-top: 0;
-  line-height: 1;              /* keep heading compact */
+  line-height: 1;              
   position: relative;
   top: -10px;
 }
@@ -92,7 +92,6 @@ body {
 }
 
 .sidebar {
-  /* Fixed overlay sidebar that sits on top of the hero */
   position: fixed;
   top: 0;
   left: 0;
@@ -185,7 +184,7 @@ button {
   border-color:#561023;
   flex-shrink: 0;
   color: white;
-  background: #561023;      /* reset large global line-height so headings stack tightly */
+  background: #561023;      
 }
 
 .button {
@@ -237,14 +236,14 @@ a:visited {
 /*MEDIA MEDIA MEDIA MEDIA */
 /*MEDIA MEDIA MEDIA MEDIA */
 /* Push main content to the right on wide screens so it isn't hidden under the fixed sidebar */
-@media (min-width: 900px) {
+@media (min-width: 640px) {
   .container {
-    margin-left: 300px; /* equal or slightly larger than sidebar width */
+    margin-left: 300px; 
   }
 }
 
 /* Collapse sidebar to a top bar on small screens */
-@media (max-width: 899px) {
+@media (max-width: 640px) {
   .sidebar {
     position: fixed;
     top: 0;
