@@ -196,24 +196,35 @@ section {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 50% 50%; 
 }
+
+pre code {
+  white-space: pre-wrap; /* Preserves whitespace and allows wrapping */
+  word-wrap: break-word; /* Breaks long words to prevent overflow */
+  overflow-wrap: break-word; /* Alias for word-wrap, ensures compatibility */
+}
+
+.code-snippet {
+  color: white;
+  background: #001d4a;
+  border-radius: .5rem;
+  padding: 5px;
+  margin: 10px;
+  right: 10px;
+  font-size: .5rem;
+}
+
 p {
   text-indent: 20px;
 }
 
 ul {
   list-style: inside;
-  list-style-image: url('images/harry-potter-wand.png');
-  line-height: 1;
+  line-height: 1.5;
 }
 
-li::marker {
-  font-size: 30px;
-} 
- /* this is where I think I need to add something to make the list items and bullets align. */
-
-
-ul li {
-  margin-bottom: -40px;
+ul li::marker {
+  font-size: 1.5rem;
+  content: '🪄';
 } 
 
 ol {
