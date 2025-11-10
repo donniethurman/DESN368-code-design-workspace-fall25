@@ -54,7 +54,7 @@ header {
 }
 
 .header1{
-  font-size: 160px;
+  font-size: 10rem;
   padding-top: 0;             
   margin-top: 0;
   line-height: 1;              
@@ -63,7 +63,7 @@ header {
 }
 
 .header2{
-  font-size: 78px;
+  font-size: 5rem;
   line-height: 1.1;
   margin: 0;
   position: relative;
@@ -73,6 +73,7 @@ header {
 h2 {
   line-height: 2.5;
   text-align: center;
+  font-size: 2rem;
 }
 
 h1, h2 {
@@ -233,14 +234,6 @@ ol {
   line-height: 5;
 }
 
-button {
-  font-family: EB Garamond, serif;
-  font-size: 1.5 rem;
-  padding: 10px 20px;
-  border-radius: 37px;
-  margin:0 auto;
-}
-
 #footer {
   text-align: center;
   color: white;
@@ -257,10 +250,15 @@ button {
   margin: 0 auto;
 }
 
-.button {
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-family: EB Garamond, serif;
+  font-size: 1.5rem;
+  padding: 50px 20px;
+  border-radius: 37px;
   margin: 0 auto;
-  display: flex; 
-  gap: 100px; 
 }
 
 .button-1 {
@@ -268,12 +266,18 @@ button {
   background-color: #561023;
   border: 1px solid white;
   color: white;
+  padding: 10px 50px;
+  border-radius: 1.5rem;
+  font-family: EB Garamond, serif;
 }
 
 .button-2 {
   margin: 0 auto;
   margin-left: 100px;
   background-color: white;
+  padding: 10px 50px;
+  border-radius: 1.5rem;
+  font-family: EB Garamond, serif;
 }
 
 .button-1:hover {
@@ -284,6 +288,7 @@ button {
 .button-2:hover {
   background-color: #561023; /* Darker beige on hover */
   color: white;
+  border-color: white;
 }
 
 a:link {
@@ -325,3 +330,14 @@ a:visited {
     padding: .5rem 1rem;
     align-items: center;
   }
+  .buttons {
+    flex-direction: column; 
+    gap: 12px; 
+    align-items: center; 
+  }
+  .buttons button { 
+    width: 80%; 
+    max-width: 260px; 
+  }
+}
+  
