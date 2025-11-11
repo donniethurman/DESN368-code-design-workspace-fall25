@@ -121,13 +121,33 @@ Tasks Completed:
 - ✓ Mobile Nav Tutorial --> https://codepen.io/donniethurman/pen/NPxZqXe
 
 --- 
+## Week 7 - Project 2: Design Brief  
+Topics Covered:
+
+    Flexbox
+    Mobile Navigation Bars
+    Responsive Design
+    Design Brief
+    
+
+Key Takeaways: This week I learned how to create a website that showcases a responsive design. We implemented media querys with a break point on 640px so that our site can be enjoyed by desktop and mobile users.  
+
+Tasks Completed:
+- ✓ Design Brief Figma Critique  
+- ✓ Weekly visual notes 
+- ✓ Flexbox Tutorial --> https://sicxz.github.io/flexbox-tutorial/
+
+--- 
 
 ## Projects
 **Project 1: Tribute Page**
 - Subject: Christian Dior
 - https://www.figma.com/design/tp0kWJ8YPw0gqcv9FynbLT/tribute-christiandior-td-f25?node-id=0-1&m=dev&t=C5RnBmKCKEOKHhld-1
 - https://donniethurman.github.io/DESN368-code-design-workspace-fall25/
-
+**Project 2: Design Brief**
+- Subject: Harry Potter Game Guide
+- https://www.figma.com/design/y70oxfQxcEmaa15cyKanVQ/design-brief-dt-368?node-id=0-1&t=TkASb45GAq5UCwMZ-1
+- https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-6/design-brief-dt-368/index.html
 
 ## Resources
 
