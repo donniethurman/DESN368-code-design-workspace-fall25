@@ -88,6 +88,7 @@ body {
   background-attachment: scroll; /* so it scrolls with content */
   background-position: center calc(100vh);
   background-color: #561023; 
+}
 
 .container {
   display: flex;
@@ -327,19 +328,15 @@ a:visited {
 /*MEDIA MEDIA MEDIA MEDIA */
 /*MEDIA MEDIA MEDIA MEDIA */
 /* Push main content to the right on wide screens so it isn't hidden under the fixed sidebar */
-@media (min-width: 640px) {
-  /* Instead of pushing the whole container right (which also shifts the
-     background), give the container left padding equal to the sidebar width.
-     This keeps the background image starting at the left edge while the
-     visible content sits to the right of the fixed sidebar. */
-  .container {
-    margin-left: 0;
-    padding-left: 300px;
-  }
-}
 
 /* Collapse sidebar to a top bar on small screens */
 @media (max-width: 640px) {
+  .content {
+padding-left: .25rem;
+padding-right: .25rem;
+box-sizing: border-box;
+}
+  
   .sidebar {
     position: fixed;
     top: 0;
@@ -350,6 +347,38 @@ a:visited {
     gap: .5rem;
     padding: .5rem 1rem;
     align-items: center;
+  }
+
+  .container {
+    margin-left: 0;
+    padding-left: 300px;
+  }
+
+  .sidebar ol {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sidebar ol li {
+    margin: 0;
+  }
+
+  .sidebar ol li a {
+    display: block;
+    padding: .4rem .6rem;
+  }
+
+  header {
+    box-sizing: border-box;
+    padding-left: 1rem;
+
   }
   .buttons {
     flex-direction: column; 
