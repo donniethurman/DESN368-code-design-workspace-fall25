@@ -10,11 +10,50 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Metal+Mania&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header> 
-
+    <header class="header-CS"> 
+        <div class="box2">
+         <h1 class="CSheader1">Harry Potter:<br> Case Study</h1>
+         <p class="CSheader2"> A field guide to all things Hogwarts</p>
+         <div class="gallery">
+         <img class="harry-potter-img" src="images/harrypotter-fieldguide-white.png" alt="Harry Potter Image">
+         <img class="sorting-hat" src="images/sorting-hat.png" alt="Sorting Hat Image">
+         <img class="tri-wizard-cup" src="images/tri-wizard-cup.png" alt="Triwizard Cup Image">
+         </div>
+        </div>
     </header>
     <main> 
-        
+        <main class="container"> 
+        <div class="content">
+            <section id="section-1"> 
+                <h2>What design choices did you make and why?</h2>
+                <p>The first design choice I made was using Gryffindor colors because it is one of the most prevalent houses in the series. The fonts came next, the header font is a whimsical, but also legible, display font. The body font is EB Garamond, which is the actual font they used in the Harry Potter books (which I thought was a fun way to tie in authenticity and it is familiar for fans. Finally, there are many instances in the series where someone is jotting something down on paper quickly. This is where my inspiration for the icons comes from. Finally, my most minor design choice, but possibly most effective is the use of gold as my accent color. The official harry potter website showcases a lot of gold, which is why I chose to include the color. </p>
+            </section>
+            <section id="section-2">
+                <h2>What was difficult to code? How did you solve it?</h2>
+                <p> Since there were some resources provided for us such as  "flexbox-tutorial" I was able to understand the layout, and getting the initial structure down was easy, the hard part was the  little tweaks I had to make to each individual section. Along with the navigation bar and images. I solved these problems by using developer tools to check and un-check each elements styles, until I found the one that was causing the problem. A lot of the time, I had duplicate rules which caused my colors to not show how I intended, which was a struggle. </p>
+            </section>
+            <section id="section-3">
+                <h2>How did you adapt your design for mobile?</h2>
+                <p> When adapting my design for mobile, the most difficult part was getting the images to align properly and be responsive. I solved this by using flexbox and adjusting the size of the images with percentages instead of fixed pixel sizes. This allowed the images to scale better on different screen sizes. </p>
+            </section>
+            <section id="section-4">
+                <h2>What did you learn about Flexbox or CSS positioning?</h2>
+                <p>I learned the importance of flexbox for responsive design. When I was doing the initial layout, nothing would “condense” on mobile, and everything was positioned using padding and margin values. After introducing the flexbox element, my design became flexible. It added distributed spacing, and overall helped with document flow.</p>
+            </section>
+            <section id="section-5">
+                <h2>What would you add or change with more time?</h2>
+                <p>With more time I would figure out how to implement more color. I would figure out how to have the box-border cover the “scooped” edges. Minor tweaks like those, that stick out to me as the designer, I would refine.</p>
+            </section>
+
+            <div class="buttons2"> 
+                <a href="index.html" class="button-1">Back to Guide</a>
+            </div>
+
+            <section id="footer"> 
+                 <p> © 2025 Donnie Thurman | Interactive Field Guide </p>
+                 <p><a href="https://www.wizardingworld.com/">Attribution</a></p>
+            </section>
+        </div>  
     </main>
 </body>
 </html>

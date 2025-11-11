@@ -320,9 +320,59 @@ a:visited {
   color: #CCCCCC;
 }
 
+/* CASE STUDY CASE STUDY CASE STUDY */
+/* CASE STUDY CASE STUDY CASE STUDY */
+/* CASE STUDY CASE STUDY CASE STUDY */
 
+header-CS {
+  text-align: center;
+  color: white;
+  background-color:#561023;
+  min-height: 100vh;           
+  display: grid;
+  align-content: center;        
+  gap: 16px;                    
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  color: white;
+  line-height: normal;         
+  padding-left: 0;
+  position: relative;
+  margin: 0 auto;
+}
 
+.CSheader1{
+  font-family: 'Metal Mania', cursive;
+  font-size: 10rem;
+}
 
+.CSheader2{
+  font-family: 'EB Garamond', serif;
+  font-size: 4rem;
+}
+
+.box2 {
+  position: static;
+  margin: 0 auto;
+  max-width: 70rem;
+  width: 100%;
+  top: 50px;
+  border: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buttons2 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-family: EB Garamond, serif;
+  font-size: 1.5rem;
+  padding: 50px 20px;
+  border-radius: 37px;
+  margin: 0 auto;
+}
 
 /*MEDIA MEDIA MEDIA MEDIA */
 /*MEDIA MEDIA MEDIA MEDIA */
