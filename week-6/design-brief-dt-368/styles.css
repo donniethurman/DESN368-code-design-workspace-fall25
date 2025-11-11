@@ -515,7 +515,14 @@ a:visited {
     padding-right: 1rem;
     padding-top: 4.25rem;
     min-height: auto;
-    font-size: 2rem;
+  }
+
+  .CSheader1{
+    font-size: 5rem;
+  }
+
+  .CSheader2{
+    font-size: 2.5rem;
   }
 
   .header1{
