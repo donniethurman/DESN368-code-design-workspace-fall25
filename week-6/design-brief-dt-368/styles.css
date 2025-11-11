@@ -24,9 +24,6 @@
   font-style: normal;
 }
 
-/* main rules removed — background is applied to body so it can be positioned
-   to appear after the header. */
-
 header {
   text-align: left;
   color: white;
@@ -147,6 +144,8 @@ section {
 }
 
 /* WAND EMOJI FOR CURSOR */
+/* WAND EMOJI FOR CURSOR */
+/* WAND EMOJI FOR CURSOR */
 body, body *:not(input):not(textarea):not(select):not([contenteditable]) {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48'><text x='0' y='40' font-size='40'>🪄</text></svg>") 24 24, auto;
 }
@@ -206,6 +205,41 @@ body, body *:not(input):not(textarea):not(select):not([contenteditable]) {
   -webkit-mask-size: 50% 50%; 
 }
 
+.deco{
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.deco1{
+  position: absolute;
+  top: 400px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.deco2{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.deco3{
+  position: absolute;
+  top: 400px;
+  right: 200px;
+  width: 100px;
+  height: auto;
+  opacity: 0.7;
+}
 pre code {
   white-space: pre-wrap; /* Preserves whitespace and allows wrapping */
   word-wrap: break-word; /* Breaks long words to prevent overflow */
@@ -513,4 +547,39 @@ a:visited {
     height: 0 !important;
   }
 
+  .deco{
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0;
+}
+
+.deco1{
+  position: absolute;
+  top: 400px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0;
+}
+
+.deco2{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  width: 100px;
+  height: auto;
+  opacity: 0;
+}
+
+.deco3{
+  position: absolute;
+  top: 400px;
+  right: 200px;
+  width: 100px;
+  height: auto;
+  opacity: 0;
+}
 }
