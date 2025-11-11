@@ -324,7 +324,7 @@ a:visited {
 /* CASE STUDY CASE STUDY CASE STUDY */
 /* CASE STUDY CASE STUDY CASE STUDY */
 
-header-CS {
+.header-CS {
   text-align: center;
   color: white;
   background-color:#561023;
@@ -357,10 +357,10 @@ header-CS {
   margin: 0 auto;
   max-width: 70rem;
   width: 100%;
-  top: 50px;
-  border: white;
+  top: auto;
+  left: auto;
+  border: none;
   text-align: center;
-  margin: 0 auto;
 }
 
 .buttons2 {
