@@ -154,6 +154,7 @@ Tasks Completed:
 - https://github.com/donniethurman/DESN368-code-design-workspace-DT-new-copy/blob/main/README-old.md
 - https://github.com/donniethurman
 - https://codepen.io/donniethurman
+- https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
 
 ## Tools Used
 
