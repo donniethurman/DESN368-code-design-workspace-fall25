@@ -102,6 +102,12 @@ code pre {
     margin: 0 auto;
     margin-bottom: 2rem;
 }
+}
+
+a: hover {
+    background: transparent;
+    color: black;
+}
 
 button {
     margin: 0 auto;
@@ -110,6 +116,7 @@ button {
     background-color: black;
     border-radius: 1rem;
     font-family: 'Inter', sans-serif;
+    border-color: black;
 }
 
 .buttons {
@@ -121,8 +128,9 @@ button {
 }
 
 .sources {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     text-align: center;
 }
 footer {
