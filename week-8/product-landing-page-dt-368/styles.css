@@ -88,7 +88,7 @@ header {
 .hero-tagline-text {
   position: relative;
   top: 80px;
-  left: 40px;
+  left: 32px;
   font-family: "Gasoek One", sans-serif;
   text-align: left;
   margin: 0 auto;
@@ -212,7 +212,7 @@ button:hover {
 .glance-img {
   width: 29rem;
   height: auto;
-  margin-left: 5rem;
+  margin-left: 15rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
@@ -227,6 +227,7 @@ button:hover {
 
 .text-right {
   flex-grow: 1;
+  max-width: 40rem;
 }
 
 .text-right-title {
@@ -291,7 +292,7 @@ h2 {
   background-color: #000000;
   padding: 1rem;
   padding-bottom: 2rem;
-  margin: 1rem;
+  margin: 2rem;
   border-radius: .5rem;
   margin-bottom: 2rem;
 }
@@ -304,7 +305,7 @@ h2 {
 /* table styles */
 .workspace {
   background: white;
-  padding: 4rem;
+  padding: 2rem;
   border-radius: none;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
@@ -367,9 +368,9 @@ tfoot {
   text-align: left;
   font-family: "Gasoek One", sans-serif;
   font-size: 4rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   color: #000000;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 
 #stay-shaded {
@@ -377,7 +378,7 @@ tfoot {
   text-align: left;
   font-family: "Gasoek One", sans-serif;
   font-size: 7rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   color: #DD5F1B;
   opacity: 40%;
 }
@@ -718,4 +719,7 @@ h2 {
     padding: 12px;
 }
 
+.footer-title {
+  display: none;
+}
 }
