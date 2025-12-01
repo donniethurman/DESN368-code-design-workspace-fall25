@@ -132,12 +132,16 @@ button {
   text-align: center;
   display: block;
   margin: 0 auto;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; /* Makes it repeat forever */
+  animation-timing-function: ease-in-out;
 }
-
 
 .first {
   margin-top: 1.5rem;
 }
+
 .glance {
   background-color: #332F30;
   padding: 20px;
@@ -165,6 +169,7 @@ button {
   margin-bottom: 2rem;
   border-radius: .5rem;
 }
+
 .wild {
   background-color: #332F30;
   padding: 20px;
@@ -417,6 +422,10 @@ form {
   margin: 0 auto;
   margin-bottom: 1rem;
   margin-top: .4rem;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; /* Makes it repeat forever */
+  animation-timing-function: ease-in-out;
 }
 
 label {
@@ -472,6 +481,19 @@ footer {
   width: 1rem;
   height: auto;
   margin-right: .5rem;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(-20px); /* Move up 50px */
+    }
+    100% {
+        transform: translateY(0); /* Return to start position */
+    }
 }
 
 /* media queries media queries media queries */
