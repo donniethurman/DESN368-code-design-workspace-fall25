@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shaded Sunglasses</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +16,16 @@
     <h1 class="shaded"> SHADED </h1>
   <section id="header-img"> </section>
     <div class="nav">
+    <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-hidden="true" />
+    <label for="nav-toggle" class="hamburger" aria-label="Open navigation">
+    <span class="hamburger-line"></span>
+</label>
    <nav id="nav-bar">
-     <a href="#summary">AT A GLANCE (;</a>
+     <a href="#summary">AT A GLANCE</a>
      <a href="#features">SHOP NOW</a>
      <a href="#data-table">STYLES</a>
      </div>
+     <label for="nav-toggle" class="nav-overlay" aria-hidden="true"></label>
   </header>
     <!-- All your main content sections go here -->
  <main>
@@ -48,11 +53,12 @@
     <img class="glance-img" src="images/sunglasses-flat.png" alt="Sunglasses image">
       <div class="text-right">
     <ul>
-      <li class="text-right-title"> SHADED SUNGLASSES
-      <li> <img class="icon" src="images/square.svg" alt="Square icon"> Clean lines </li>
-      <li> <img class="icon" src="images/feather.svg" alt="Feather icon"> Lightweight frames </li>
-      <li> <img class="icon" src="images/eye.svg" alt="Eye icon"> High-clarity lenses </li>
+      <li class="text-right-title"> SHADED SUNGLASSES</li>
+      <li><img class="icon" src="images/square.svg" alt="Square icon"> Clean lines</li>
+      <li><img class="icon" src="images/feather.svg" alt="Feather icon"> Lightweight frames</li>
+      <li><img class="icon" src="images/eye.svg" alt="Eye icon"> High-clarity lenses</li>
       <li class="text-right-description"> Designed to block harsh glare while keeping your style sharp, Shaded sunglasses are the perfect balance of simplicity and function. </li>
+      </ul>
       </div>
       </div>
    </section>
@@ -81,21 +87,21 @@
 
   <section id="features">
   <article class="card123">
-    <img class="cards" src="images/sunglasses-black.png" alt="Feature icon">
+    <img class="cards" src="images/sunglasses-black.png" alt="black sunglasses">
     <h3>Base</h3>
     <p class="card-description-label"> SHADES </p>
     <p class="card-description">All style, no noise. With deep black frames and dark-tinted lenses, these sunglasses deliver a confident, modern edge. </p>
   </article>
 
   <article class="card123">
-    <img class="cards" src="images/sunglasses-brown.png" alt="Feature icon">
+    <img class="cards" src="images/sunglasses-brown.png" alt="brown sunglasses">
     <h3>Elevated</h3>
     <p class="card-description-label">TORTOISE SHELL</p>
     <p class="card-description">A timeless pattern meets modern design. These tortoise shell frames blend warm, earthy tones with sleek, durable construction.</p>
   </article>
 
   <article class="card123">
-    <img class="cards" src="images/sunglasses-yellow.png" alt="Feature icon">
+    <img class="cards" src="images/sunglasses-yellow.png" alt="yellow sunglasses">
     <h3>Fancy</h3>
     <p class="card-description-label">YELLOW LENSES</p>
     <p class="card-description">For those who like to stand out without trying. The cream frame contrasts with bright yellow lenses for a fresh, street-ready look.</p>
@@ -166,7 +172,8 @@
       <p class="contact-title"> SIGN UP: </p>
       <div class="form-group1">
         <label for="name">NAME:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name"        </div>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+      </div>
       <div class="form-group2">
         <label for="email">EMAIL:</label>
         <input type="email" id="email" name="email" required placeholder="Enter your email">
