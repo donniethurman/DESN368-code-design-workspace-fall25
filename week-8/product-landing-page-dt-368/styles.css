@@ -6,6 +6,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 /*fonts*/
@@ -30,6 +31,7 @@ a {
   text-decoration: none;
   font-size: 1rem;
   color: black;
+  width: 78px;
 }
 
 .shaded {
@@ -80,13 +82,13 @@ header {
 }
 
 .hero-tagline-text {
-  position: absolute;
-  top: 1250px;
-  left: 300px;
+  position: relative;
+  top: 80px;
+  left: 40px;
   font-family: "Gasoek One", sans-serif;
   text-align: left;
   margin: 0 auto;
-  font-size: 3rem;
+  font-size: 5rem;
   color: #332F30;
 }
 
@@ -274,6 +276,13 @@ h2 {
   border-radius: .5rem;
 }
 
+.card123:hover {
+  background-color: #DD5F1B;
+  color: white;
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}
+
 .black-box {
   background-color: #000000;
   padding: 1rem;
@@ -291,19 +300,21 @@ h2 {
 /* table styles */
 .workspace {
   background: white;
-  padding: 2rem;
-  border-radius: 12px;
+  padding: 4rem;
+  border-radius: none;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 th,
 td {
-  border: solid #000000 .1rem;
+  border: solid #000000;
   padding: 1rem;
   font-family: "Homenaje", sans-serif;
   text-align: center;
@@ -441,6 +452,7 @@ footer {
   text-align: center;
   font-family: "Homenaje", sans-serif;
   padding: 1.5rem;
+  padding-top: 4rem;
 }
 
 .footer-links {
@@ -458,3 +470,74 @@ footer {
 }
 
 /* media queries media queries media queries */
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    background: #000000;
+    color: white;
+  }
+}
+
+@media (max-width: 400px) {
+
+  #nav-bar {
+    flex-direction: column;
+    align-items: stretch;      /* let links fill the nav width */
+    justify-content: center;
+    gap: 0;
+    padding: 0.25rem 0.5rem;
+    height: auto;
+  }
+  .hero-tagline-text {
+    display: none;
+  }
+
+  .hero-tagline,
+  .hero-tagline-text,
+  .hero-img2 {
+    display: none;
+  }
+
+    .container-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  /* Make the product image full width but constrained */
+  .glance-img {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 0 1rem 0;
+  }
+
+  /* Make the text block full width and increase readability */
+  .text-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Reduce list width and font sizes for small screens */
+  ul {
+    max-width: 100%;
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+  }
+
+  .text-right-title {
+    font-size: 1.6rem;
+  }
+
+  .text-right-description {
+    font-size: 0.95rem;
+  }
+
+  /* Ensure the section heading doesn't crowd the layout */
+  .glance {
+    font-size: 2rem;
+    padding: 12px;
+    margin-top: 0;
+  }
+
+
+}
