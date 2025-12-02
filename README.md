@@ -139,6 +139,53 @@ Tasks Completed:
 
 --- 
 
+## Week 9 - Product Landing Page 
+Topics Covered:
+
+    Animations
+    Trnasform/Translate
+    Responsive Design
+    Product Landing Page
+    
+
+Key Takeaways: This week I designed and began coding my project "Product Landing Page" 
+
+Project Description: For this project I came up with a product. I chose sunglasses and named my brand SHADED. As a class, we went through multiple iterations of our designs. We also did an online Figma critique of our designs. Then, we began coding. This project is supposed to show my developed understanding of HTML and CSS as well as a focus on responsive design. A
+
+Transform used: 
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  Explanation: this transform property is applied to my cards in the "features" section. It makes each card scale up in size,     and the transition allows for a smooth transtion from original size to hover size. 
+   
+Animation used: 
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; /* Makes it repeat forever */
+  animation-timing-function: ease-in-out;
+  Explanation: This animation makes my buttons bounce from their original position up 20px. It also makes the bounce take 2       seconds and makes each button bounce infinetely. So as long as youre on the site, the buttons bounce. 
+  
+Data Table: 
+    My data table displays the three different pairs of sunglasses available for the consumer to buy. It specifies four             different things, material, tint, price, and style. Accompanied by the associated data for each pair. 
+
+3 challanges: Three challanges I overcame while creating this site were, figuring out the right colors for my design (Orange and black can easily become very halloweeny.), getting my youtube video to actually load in on my site, and forms as a whole. 
+    - colors 
+    - YouTube video
+    - forms 
+
+5 things I learned: I learned that animations aren't as scary as they sound, as well as, how to create zebra stripes on a table, how to create :focus states for forms, how to style forms, and that tables are fun! 
+    - animations
+    - zebra tripes for tables
+    - form :focus states 
+    - form styling
+    - tables 
+
+
+
+Tasks Completed:
+- ✓ product page design 
+- ✓ product page critique 
+- ✓ product page code
+
 ## Projects
 **Project 1: Tribute Page**
 - Subject: Christian Dior
@@ -148,6 +195,10 @@ Tasks Completed:
 - Subject: Harry Potter Game Guide
 - https://www.figma.com/design/y70oxfQxcEmaa15cyKanVQ/design-brief-dt-368?node-id=0-1&t=TkASb45GAq5UCwMZ-1
 - https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-6/design-brief-dt-368/index.html
+**Project 3: Product Page**
+- Subject: Shaded Sunglasses
+- https://www.figma.com/site/HvJC1VHjjTn9daZYTKYFum/product-landing-page-dt-368?node-id=0-1&t=5lSq0gVFZXlYPLWj-1
+- https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-8/product-landing-page-dt-368/index.html 
 
 ## Resources
 
@@ -155,6 +206,7 @@ Tasks Completed:
 - https://github.com/donniethurman
 - https://codepen.io/donniethurman
 - https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+- https://feathericons.com
 
 ## Tools Used
 
@@ -163,6 +215,7 @@ Tasks Completed:
 - GitHub
 - Codepen
 - Figma
+- Coolors
 
 ---
 
