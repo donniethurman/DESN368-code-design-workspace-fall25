@@ -122,7 +122,6 @@ header {
 button {
   font-family: "Gasoek One", sans-serif;
   border-radius: 3rem;
-  border-color: none;
   color: #000;
   letter-spacing: .1rem;
   padding: 1.1rem;
@@ -471,10 +470,6 @@ footer {
 
 .footer-links {
   font-size: 1.1rem;
-}
-
-.insta {
-  text-indent: none;
 }
 
 .icon-footer {
