@@ -408,6 +408,22 @@ form {
   padding-right: .75rem;
 }
 
+input[type="email"]:focus {
+  outline: solid 2px #FF9A35;
+}
+
+input[type="email"]:invalid {
+  outline: solid 2px red;
+}
+
+input[type="name"]:focus {
+  outline: solid 2px #FF9A35;
+}
+
+input[type="textbox"]:focus {
+  outline: solid 2px #FF9A35;
+}
+
 .contact-title {
   font-family: "Gasoek One", sans-serif;
   font-size: 2rem;
