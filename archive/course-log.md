@@ -207,6 +207,7 @@ Tasks Completed:
 - https://codepen.io/donniethurman
 - https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
 - https://feathericons.com
+- https://www.linkedin.com/in/donnie-thurman-b50423268/
 
 ## Tools Used
 
