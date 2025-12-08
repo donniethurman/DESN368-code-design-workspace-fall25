@@ -1,0 +1,15 @@
+img {
+    border-radius: 8px;
+    width: 400px;
+}
+
+body {
+    border: 10px solid ##964B00;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8DC;
+    max-width: 800px;
+    text-align: left;
+
+}
