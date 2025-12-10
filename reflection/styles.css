@@ -14,7 +14,7 @@
   --yellow-color: #FFC545;
   --blue-color: #A5DCFF;
   --green-color: #798B5C;
-  --black-color; #353334; 
+  --black-color: #353334; 
 }
 
 html {
@@ -24,7 +24,7 @@ html {
 }
 
 main {
-  background-img: url(https://snipboard.io/FGOg8z.jpg);
+  background-image: url(https://snipboard.io/FGOg8z.jpg);
   background-color: var(--primary-bg-color);
 }
 
