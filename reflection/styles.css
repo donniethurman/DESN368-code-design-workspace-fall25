@@ -24,7 +24,6 @@ html {
 }
 
 main {
-  background-image: url(https://snipboard.io/FGOg8z.jpg);
   background-color: var(--primary-bg-color);
 }
 
@@ -183,7 +182,7 @@ p {
   margin: 0 auto;
   font-size: 1.5rem;
   padding-bottom: 3rem;
-  background-color: var(--primary-bg-color);
+  background-color: #FFF8EF;
 }
 
 .one {
