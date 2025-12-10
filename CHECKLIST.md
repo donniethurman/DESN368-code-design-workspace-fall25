@@ -8,12 +8,12 @@ Use this to verify your work before submitting. Every box should be checked.
 - [x] Renamed old `index.html` to `learning-log.html` (NOT moved, NOT deleted)
 - [x] Created `archive/` folder
 - [x] Moved old README to `archive/course-log.md`
-- [ ] Created new `index.html` (portfolio home page)
-- [ ] Created new `README.md` using the template
-- [ ] Created `css/` folder for portfolio styles
-- [ ] Created `images/` folder for portfolio images
-- [ ] All `week-XX` folders are still in root (not moved)
-- [ ] All links in `learning-log.html` still work
+- [x] Created new `index.html` (portfolio home page)
+- [x] Created new `README.md` using the template
+- [x] Created `css/` folder for portfolio styles
+- [x] Created `images/` folder for portfolio images
+- [x] All `week-XX` folders are still in root (not moved)
+- [x] All links in `learning-log.html` still work
 
 ---
 
