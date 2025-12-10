@@ -1,11 +1,5 @@
-<!-- 
-  HOW TO USE THIS TEMPLATE
-  1. Replace all [bracketed text] with your information
-  2. Delete this comment block before submitting
-  3. Update the links to point to YOUR repository
--->
 
-# [Your Name] — Web Design Portfolio
+# Donnie Thurman — Web Design Portfolio
 
 **DESN368: Code + Design 1 | Fall 2025**  
 Eastern Washington University  
@@ -17,42 +11,44 @@ Instructor: Travis Masingale
 
 This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
 
-- **[View Live Portfolio]( https://donniethurman.github.io/DESN368-code-design-workspace-fall25/)**
+- **[View Live Portfolio] ( https://donniethurman.github.io/DESN368-code-design-workspace-fall25/)**
 - **[View Learning Log]( https://donniethurman.github.io/DESN368-code-design-workspace-fall25/learning-log.html)** — Weekly progress & exercises
 
 ---
 
 ## Design Direction
 
-For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
+For my portfolio, I pursued a playful, clean, and bold aesthetic.
 
-- **Header Font:** [Font Name]
-- **Body Font:** [Font Name]
-- **Primary Color:** [Hex Code]
-- **Accent Color:** [Hex Code]
-- **Background:** [Hex Code]
+- **Header Font:** Gasoek One
+- **Body Font:** Libre Caslon Display
+- **Primary Color:** #FF9491
+- **Accent Color:** #FFC545
+- **Accent Color:** #A5DCFF
+- **Accent Color:** #798B5C
+- **Background:** #FFECD5
 
-**[View Figma File](https://www.figma.com/file/[your-figma-link])**
+**[View Figma File](https://www.figma.com/design/FHkRXDNsZvwFXdJvaLev0U/Portfolio-Page?node-id=2-2&t=NObPJkrXle4TCEBj-1)**
 
 ---
 
 ## Featured Projects
 
 **The Recipe**  
-[1-sentence description]  
-[View Project](./week-XX/recipe/)
+This website is for all the baked good lovers; The purpose of the project was to create a well-structured HTML page, to which we later implemented CSS, it is a recipe for Banana Bread that can be made for breakfast, snacks, or on-the-go!  
+[View Project](https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-2/recipe-site/recipe.html)
 
 **Tribute Site**  
-[1-sentence description]  
-[View Project](./week-XX/tribute/)
+This website is a tribute to popular haute couture designer, Christian Dior; you will find a timeline of Christian Diors life from college to death, paired with Dior inspired typography, images, and texture. (This is a demostration of the basic understanding of HTML and CSS I had at the time.) 
+[View Project](https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-4/tribute-page-dt-368/index.html)
 
 **Field Guide**  
-[1-sentence description]  
-[View Project](./week-XX/field-guide/)
+This project is a field guide to Hogwarts: School of Witchcraft and Wizardry, from popular fantasy book and movie series Harry Potter; my target with this website was to demostrate my understanding of responsive design and utilize flexbox-based layouts.  
+[View Project](https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-6/design-brief-dt-368/index.html)
 
 **Product Landing Page**  
-[1-sentence description]  
-[View Project](./week-XX/landing-page/)
+This project is a website for a brand called "Shaded"; an edgy sunglasses company with functionality in mind... The purpose is to demonstrate a culmination of my study of HTML and CSS throughout this quarter, with a focus on responsive design and a goal of using it for my portfolio. 
+[View Project](https://donniethurman.github.io/DESN368-code-design-workspace-fall25/week-9/product-landing-page-dt-368/index.html)
 
 ---
 
@@ -77,14 +73,24 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 ## Credits & Citations
 
 **Assets**
-- [List any images, icons, or assets you didn't create]
+(icons sourced from https://feathericons.com)
+- instagram.svg
+- linkedin.svg
+- youtube.svg
+- music.svg
+(texture sources from https://www.pinterest.com)
+- bg-texture.jpg
+  
 
 **Tutorials & Resources**
-- [Any tutorials or Stack Overflow threads that helped]
+- https://www.w3schools.com/css/css3_transitions.asp
+- https://www.google.com/search?client=safari&rls=en&q=how+to+fix+restictions+on+my+youtube+videos+so+i+can+use+them+in+my+html&ie=UTF-8&oe=UTF-8#fpstate=ive&vld=cid:03e50a25,vid:nqO6cEbXyKM,st:77
+
 
 **AI Assistance**
-- [If used: "Used Claude for debugging CSS grid in Week 6"]
-- [If none: "No AI assistance used"]
+- Used Github CoPilot for debugging responsive design in Project(s):
+    Product Page - Shaded
+    Portfolio Page - Donnie Thurman
 
 ---
 
@@ -94,4 +100,4 @@ For my portfolio, I pursued a **[describe your vibe in 2-3 words]** aesthetic.
 
 ---
 
-© 2025 [Your Name]. Built for DESN368 at Eastern Washington University.
+© 2025 Donnie Thurman. Built for DESN368 at Eastern Washington University.
