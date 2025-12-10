@@ -148,7 +148,8 @@ a {
 h2 {
   background-color: var(--pink-color);
   color: var(--primary-color);
-  width: 68.5rem;
+  width: 100%;
+  max-width: 68.5rem;
   font-size: 4rem;
   border-bottom: 0.8125rem solid var(--yellow-color);
   font-family: var(--primary-header-font);
@@ -234,14 +235,20 @@ p {
   background-color: var(--primary-bg-color);
 }
 
+
 .projects {
   border-radius: 10px;
   margin: 1rem;
   border: 10px solid #353334;
+  width: 100%;
+  max-width: 320px;
 }
 
 .websites {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
   margin-top: 6rem;
   margin-bottom: 3rem;
   margin-left: 1rem;
@@ -264,18 +271,16 @@ p {
 .project-titles {
   font-family: var(--primary-accent-font);
   font-size: 2rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .project-desc {
   font-family: var(--primary-body-font);
-  padding-left: 1rem;
-  max-width: 26rem;
+  padding-left: 2rem;
+  max-width: 21rem;
   width: 100%;
   padding-right: 1rem;
 }
-
-
 
 /* my work */
 #my-work {
@@ -581,8 +586,12 @@ footer {
 }
 
 /* media querys */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   
+html {
+    margin-left: 200px;
+}
+
   .pattern1 {
     display: none;
   }
@@ -599,62 +608,11 @@ footer {
   margin-top: 1rem;
 }
   /* nav */
-  
-  .nav-toggle { 
-  display: none; 
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-}
-
-.hamburger {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;          
-  width: 44px;
-  height: 44px;
-  background: #FF9A35;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-  z-index: 1500;
-  cursor: pointer;
-}
-
-
-.hamburger:hover {
-  background: #FFC65C;
-}
-
-.hamburger-line,
-.hamburger-line::before,
-.hamburger-line::after {
-  content: "";
-  display: block;
-  width: 22px;
-  height: 2px;
-  background: #000;
-  transition: transform .22s ease, opacity .22s ease;
-  position: relative;
-}
-
-.hamburger-line::before {
-  position: absolute; top: -7px; left: 0; 
-}
-.hamburger-line::after  { 
-  position: absolute; top: 7px; left: 0; 
-}
-
-.nav-toggle:checked + .hamburger + #nav-bar { 
-  left: 0; 
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-}
   #nav-bar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;   
+    width: 220px;   
     height: 100vh;    
     background: var(--primary-bg-color);
     display: flex;
@@ -673,16 +631,21 @@ footer {
   }
   
   li {
-      padding-left: 0;
+    padding-left: 0;  
+    text-align: center;
   }
   
   #logo {
-      margin-left: 0;
-      padding-right: 0;
-      font-size: 2.5rem;
-      text-align: center;
+    font-family: var(--primary-header-font);
+    text-align: left;
+    margin-left: 3rem;
+    padding-right: 5;
+    font-size: 4rem;
   }
   
+  #header1 {
+    padding-top: 4rem;
+  }
   
   /* header */
   #header1 {
@@ -695,6 +658,7 @@ footer {
       font-size: 4rem;
       text-indent: 0;
       text-align: center;
+      margin-left: 1rem;
   }
   
   h2 {
@@ -750,6 +714,32 @@ footer {
       padding: 1rem;
   }
   
+  /* project showcase */
+  .websites {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      gap: 1rem;
+  }
+  
+  .projects {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .project-desc {
+  max-width: 100%;
+}
+
+.section-header2 {
+    text-align: center;
+}
+
+.project-card1 {
+    width: 300px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
   /* my work */
     /* posters */
   .poster-section {
@@ -800,8 +790,9 @@ footer {
   
     /* videos */
   .videos {
-    margin-top: 2rem;
+    margin-top: .1rem;
     margin-right: 1rem;
+    padding-right: 1rem;
   }
   
   .video iframe {
