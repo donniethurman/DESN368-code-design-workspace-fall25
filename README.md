@@ -92,6 +92,10 @@ This project is a website for a brand called "Shaded"; an edgy sunglasses compan
     Product Page - Shaded
     Portfolio Page - Donnie Thurman
 
+**AI Documentation For Portfolio 
+Prompts:
+- Can you tell me why my nav bar links arent centered on the nav any why my hamburger button isnt working to close to nav?
+- Can you tell me how to move my page content to the side so it isnt under my nav bar?
 ---
 
 ## Reflection
