@@ -131,7 +131,7 @@ h2 {
 .header-texture {
   width: 100%;
   height: 11.3rem;
-  background-image: url(https://snipboard.io/FGOg8z.jpg);
+
   opacity: 90%;
   margin-top: -2rem;
   box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3)
@@ -177,8 +177,12 @@ p {
 
 
 .answer {
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
+  width: 60rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
 }
 
 .one {
