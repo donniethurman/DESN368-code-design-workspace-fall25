@@ -5,9 +5,9 @@ Use this to verify your work before submitting. Every box should be checked.
 
 ## Part 1: Repository Organization
 
-- [ ] Renamed old `index.html` to `learning-log.html` (NOT moved, NOT deleted)
-- [ ] Created `archive/` folder
-- [ ] Moved old README to `archive/course-log.md`
+- [x] Renamed old `index.html` to `learning-log.html` (NOT moved, NOT deleted)
+- [x] Created `archive/` folder
+- [x] Moved old README to `archive/course-log.md`
 - [ ] Created new `index.html` (portfolio home page)
 - [ ] Created new `README.md` using the template
 - [ ] Created `css/` folder for portfolio styles
