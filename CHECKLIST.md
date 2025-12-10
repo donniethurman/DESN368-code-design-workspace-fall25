@@ -62,12 +62,12 @@ Use this to verify your work before submitting. Every box should be checked.
 
 ## Part 4: Reflection
 
-- [ ] Created reflection page (linked from portfolio)
-- [ ] The Threshold: Answered in 3-5 sentences minimum
-- [ ] The Pit: Answered in 3-5 sentences minimum
-- [ ] The Pivot: Answered in 3-5 sentences minimum
-- [ ] The Process: Answered in 3-5 sentences minimum
-- [ ] The Future: Answered in 3-5 sentences minimum
+- [x] Created reflection page (linked from portfolio)
+- [x] The Threshold: Answered in 3-5 sentences minimum
+- [x] The Pit: Answered in 3-5 sentences minimum
+- [x] The Pivot: Answered in 3-5 sentences minimum
+- [x] The Process: Answered in 3-5 sentences minimum
+- [x] The Future: Answered in 3-5 sentences minimum
 
 ---
 
@@ -81,36 +81,36 @@ Use this to verify your work before submitting. Every box should be checked.
 - [x] Credited any assets I didn't create
 - [x] Cited tutorials or resources I used
 - [x] Disclosed AI assistance (or noted "none")
-- [ ] Added link to Figma file
-- [ ] Deleted the "How to Use" comment block at top
+- [x] Added link to Figma file
+- [x] Deleted the "How to Use" comment block at top
 
 ---
 
 ## Part 6: Submission
 
-- [ ] Pushed all changes to GitHub
-- [ ] GitHub Pages site is live and working
-- [ ] Submitted Canvas: Link to live portfolio
-- [ ] Submitted Canvas: Link to GitHub repository
-- [ ] Submitted Canvas: Link to Figma file
+- [x] Pushed all changes to GitHub
+- [x] GitHub Pages site is live and working
+- [x] Submitted Canvas: Link to live portfolio
+- [x] Submitted Canvas: Link to GitHub repository
+- [x] Submitted Canvas: Link to Figma file
 
 ---
 
 ## Part 7: Presentation Prep (Dec 10 @ 10:30 AM)
 
-- [ ] I can explain my design choices (typography, color, vibe)
-- [ ] I have one piece of code I'm proud of and can talk about
-- [ ] I can describe my "Threshold" moment
-- [ ] I know how to pull up my site on the big screen
-- [ ] I will be there
+- [x] I can explain my design choices (typography, color, vibe)
+- [x] I have one piece of code I'm proud of and can talk about
+- [x] I can describe my "Threshold" moment
+- [x] I know how to pull up my site on the big screen
+- [x] I will be there
 
 ---
 
 ## Final Gut Check
 
-- [ ] Does my portfolio look like ME?
-- [ ] Would I be comfortable showing this to a potential employer or client?
-- [ ] Did I actually build this, or just copy-paste without understanding?
+- [x] Does my portfolio look like ME?
+- [x] Would I be comfortable showing this to a potential employer or client?
+- [x] Did I actually build this, or just copy-paste without understanding?
 
 ---
 
