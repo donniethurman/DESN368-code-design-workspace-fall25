@@ -51,6 +51,11 @@ main {
   margin-top: 9rem;
 }
 
+p {
+  display: normal;
+  line-height: 1.6;
+}
+
 /* nav */
 #nav-bar {
   display: flex;
@@ -530,7 +535,7 @@ p {
 }
 
 .pattern2 {
-  padding-bottom: -4rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 

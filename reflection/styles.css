@@ -182,7 +182,7 @@ p {
   margin: 0 auto;
   font-size: 1.5rem;
   padding-bottom: 3rem;
-  background-color: #FFECD5;
+  background-color: var(--primary-bg-color);
 }
 
 .one {
