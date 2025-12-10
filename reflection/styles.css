@@ -220,6 +220,7 @@ footer {
 .button {
   text-align: center;
   margin: 1rem;
+  margin-top: 2rem;
 }
 
 .button-link {
