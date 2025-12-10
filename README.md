@@ -100,7 +100,7 @@ Prompts:
 
 ## Reflection
 
-[→ Read Full Reflection on Portfolio Site](https://[your-username].github.io/[your-repo-name]/reflection.html)
+[→ Read Full Reflection on Portfolio Site](https://donniethurman.github.io/DESN368-code-design-workspace-fall25/reflection/index.html)
 
 ---
 
